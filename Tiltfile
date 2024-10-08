@@ -10,7 +10,7 @@ custom_build(
 )
 
 # Deploy
-k8s_yaml(['k8s/deployment.yml', 'k8s/service.yml'])
+k8s_yaml(['k8s/deployment.yaml', 'k8s/service.yaml'])
 
 # Manage
 # k8s_resource('dispatcher-service', port_forwards=['9003'])
